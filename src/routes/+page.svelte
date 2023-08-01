@@ -25,7 +25,7 @@
 		<div class="col-span-3">
 			<h1>Svelte store</h1>
 		</div>
-		{#each products as product, i}
+		{#each products as product}
 		<ProductCard product={product}/>
 		{/each}
 		<div class="col-span-3">
